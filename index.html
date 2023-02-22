@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>New Year Countdown</title>
+  </head>
+  <body>
+    <div id="year" class="year"></div>
+    <h1>New Year Countdown</h1>
+    <div id="countdown" class="countdown">
+      <div class="time">
+        <h2 id="days">00</h2>
+        <p><small>days</small></p>
+      </div>
+      <div class="time">
+        <h2 id="hours">00</h2>
+        <p><small>hours</small></p>
+      </div>
+      <div class="time">
+        <h2 id="minutes">00</h2>
+        <p><small>minutes</small></p>
+      </div>
+      <div class="time">
+        <h2 id="seconds">00</h2>
+        <p><small>seconds</small></p>
+      </div>
+    </div>
+    <img
+      src="data:image/png;base64,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"
+      alt="Loading..."
+      id="loading"
+      class="loading"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
